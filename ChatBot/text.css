@@ -1,0 +1,100 @@
+
+body{
+    background-image: url(https://i.pinimg.com/600x315/8c/98/99/8c98994518b575bfd8c949e91d20548b.jpg);
+    max-height: fit-content;
+    background-attachment: fixed;
+     
+}
+main{
+    overflow: hidden;
+}
+#header-id{
+    background-color: rgba(24, 189, 134, 0.767);
+}
+   
+#menu-bar{
+    border: none;
+    border-radius: 15px 25px 0 15px;
+    background-color: rgba(97, 237, 237, 0.495);
+}
+
+#scroller{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#text-content{
+    text-align: right;
+    
+    
+}
+#text-content{
+    position: relative;
+    
+    
+}
+@keyframes example {
+    from{
+        transform: translateX(-20px);
+    }
+    to{
+        transform: translateX(20px);
+    }
+    
+}
+.usercontent{
+    animation: example 1s  2s linear reverse;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+    background-color: rgba(26, 108, 77, 0.799);
+    border-radius: 30px 0 40px 15px;
+    text-align: left;
+    }
+
+
+
+#footer{
+    background-color: rgba(7, 144, 117, 0.663);
+}
+
+#mic-btn{
+    background-color: rgba(0, 255, 255, 0.364);
+    margin: 2px auto;
+    border-radius: 30%;
+    color:white;
+}
+
+#send-btn{
+    background-color: rgba(0, 255, 255, 0.379);
+    margin: 2px auto;
+    border-radius: 30%;
+    color:white;
+}
+
+#camera-btn{
+    background-color: rgba(0, 255, 255, 0.442);
+    font-size: x-large;
+    margin: 4px auto;
+    border-radius: 30%;
+    border: none;
+    color:white;
+    
+}
+#space{
+    display: flex;
+
+}
+#camera-id{
+    display: none;
+}
+#cameraIcon{
+    display: none;
+    width: 250px;
+    height: 300px;
+
+}
+
